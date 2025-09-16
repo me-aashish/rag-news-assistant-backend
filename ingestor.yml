@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  rag-ingestor:
+    image: aashu1198/rag-news-assistant-ingestor:v1
+    container_name: rag-ingestor
+    restart: always

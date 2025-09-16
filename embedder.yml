@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  rag-embedder:
+    image: aashu1198/rag-news-assistant-embedder:v1
+    container_name: rag-embedder
+    ports:
+      - "3002:3002"
+    restart: always
