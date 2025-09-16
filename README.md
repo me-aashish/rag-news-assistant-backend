@@ -8,7 +8,7 @@ It provides a clean, interactive interface for chatting with the assistant, mana
 ## 🚀 Features
 
 - 🔹 Session-based chat with history stored in Redis
-- 🔹 Embedding generation via external service
+- 🔹 Leveraging Hugging Face models via sentence-transformers for generating embeddings.
 - 🔹 Vector search using Qdrant
 - 🔹 LLM integration (Gemini)
 - 🔹 REST and Socket.IO APIs
